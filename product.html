@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="assets4/css/css4.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-8tFk9JKSEAAubM17dDZtqOPpVkxQIH8vIbhdkyj2RvO8jpuLy9gP6g7b1G1PIcymAL0VeUXfHvL7cEAFjtuE5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<div class="container">
+    <div class="navbar">
+        <div class="logo-container">
+            <img src="assets/imgs/logo.png" alt="Logo" class="logo">
+            <div class="business-name">Beloved PH</div>
+        </div>
+        <div class="menu-items">
+            <!-- Update the href attributes to point to the corresponding webpages -->
+            <a href="index.html">Home</a>
+            <a href="product.html">Products</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about us.html">About Us</a>
+        </div>
+    </div>
+
+    <div class="product-container">
+        <!-- Your product content goes here -->
+        <h2>Featured Products</h2>
+    </div>
+
+    <div class="featured-container">
+        <div class="column1">
+            <!-- Content for the first column (image) goes here -->
+            <img src="assets4/imgs/feature1.jpg" alt="Featured Image">
+        </div>
+        <div class="column2">
+            <!-- Content for the second column (text) goes here -->
+            <h3>Basket Crochet</h3>
+            <p>Elevate your summer style with our Basket Crochet Shorts. Handcrafted with a delicate basket weave pattern, these shorts offer a blend of comfort and bohemian charm. Perfect for casual outings and beach days, they showcase the beauty of crochet in a relaxed, stylish fit.</p>
+            <!-- Order Now Button -->
+            <button class="order-now-button">Order Now</button>
+        </div>
+    </div>
+
+    <div class="rest-container">
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-item">
+                <img src="assets4/imgs/product1.jpg" alt="Product 1">
+                <div class="product-name">Sunflower Crochet</div>
+                <div class="product-price">$19.99</div>
+                <button class="add-button">Add</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-item">
+                <img src="assets4/imgs/product2.jpg" alt="Product 2">
+                <div class="product-name">Pink Crochet</div>
+                <div class="product-price">$24.99</div>
+                <button class="add-button">Add</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-item">
+                <img src="assets4/imgs/product3.jpg" alt="Product 3">
+                <div class="product-name">Blue Crochet </div>
+                <div class="product-price">$29.99</div>
+                <button class="add-button">Add</button>
+            </div>
+
+            <!-- Add more product items -->
+            <!-- Product 4 -->
+            <div class="product-item">
+                <img src="assets4/imgs/product4.jpg" alt="Product 4">
+                <div class="product-name">Blue Bouquet Crochet 4</div>
+                <div class="product-price">$39.99</div>
+                <button class="add-button">Add</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-item">
+                <img src="assets4/imgs/product5.jpg" alt="Product 5">
+                <div class="product-name">Lily Bouquet Crochet</div>
+                <div class="product-price">$49.99</div>
+                <button class="add-button">Add</button>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-item">
+                <img src="assets4/imgs/product6.jpg" alt="Product 6">
+                <div class="product-name">Orange Sunflower</div>
+                <div class="product-price">$59.99</div>
+                <button class="add-button">Add</button>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="product-item">
+                <img src="assets4/imgs/product7.jpg" alt="Product 7">
+                <div class="product-name">Daisy Crochet</div>
+                <div class="product-price">$69.99</div>
+                <button class="add-button">Add</button>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="product-item">
+                <img src="assets4/imgs/product8.jpg" alt="Product 8">
+                <div class="product-name">Rose Crochet</div>
+                <div class="product-price">$79.99</div>
+                <button class="add-button">Add</button>
+            </div>
+
+            <!-- Product 9 -->
+            <div class="product-item">
+                <img src="assets4/imgs/product9.jpg" alt="Product 9">
+                <div class="product-name">Sunflower Bouquet Crochet</div>
+                <div class="product-price">$89.99</div>
+                <button class="add-button">Add</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Enlarged Image">
+            <span class="close-btn" id="close-btn">&times;</span>
+        </div>
+    </div>
+
+    <div class="faq-container">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq-item" onclick="toggleFaq(this)">
+            <div class="question">
+                What makes crochet bouquet flowers unique compared to real flowers?
+            </div>
+            <div class="answer">
+                <p>Crochet bouquet flowers offer a timeless and enduring beauty. They are handmade with meticulous attention to detail, allowing for a level of customization not found in real flowers. Additionally, crochet flowers can be cherished as a lasting keepsake, bringing a touch of handmade artistry to any space.</p>
+            </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFaq(this)">
+            <div class="question">
+                Can I request specific flower types or colors for a custom order?
+            </div>
+            <div class="answer">
+                <p>Absolutely! I love personalizing my creations. You can request specific flower types, colors, or even a combination of different blooms to match your preferences or a special theme. Customization adds a personal touch, making each bouquet a unique expression of your style.</p>
+            </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFaq(this)">
+            <div class="question">
+                How long does it take to complete a custom crochet bouquet order?
+            </div>
+            <div class="answer">
+                <p>The time to complete a custom order can vary based on the complexity and size of the bouquet. Generally, I strive to complete orders in a timely manner while ensuring the highest quality. I'll provide you with a more accurate timeframe when discussing the details of your custom order.</p>
+            </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFaq(this)">
+            <div class="question">
+                Are crochet bouquet flowers suitable for special occasions like weddings or events?
+            </div>
+            <div class="answer">
+                <p>Absolutely! Crochet bouquet flowers are a wonderful choice for special occasions. They add a distinctive, handmade charm to weddings, events, or any celebration. Plus, they serve as lasting mementos, allowing you to preserve the memories of your special day in a unique and beautiful way.</p>
+            </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFaq(this)">
+            <div class="question">
+                How should I care for crochet bouquet flowers to ensure their longevity?
+            </div>
+            <div class="answer">
+                <p>Crochet bouquet flowers are low-maintenance but benefit from gentle care. Keep them away from direct sunlight and moisture. If needed, dust them lightly with a soft brush. With proper care, your crochet bouquet will stay vibrant and beautiful for years to come.</p>
+            </div>
+        </div>
+
+        <div class="faq-item" onclick="toggleFaq(this)">
+            <div class="question">
+                Do you ship crochet bouquet flowers internationally?
+            </div>
+            <div class="answer">
+                <p>No, currently, we only offer shipping within the Philippines. We hope to expand our shipping options in the future.
+
+                </p>
+            </div>
+        </div>       
+    </div>
+
+    <div class="footer-container">
+        <div class="column larger-column">
+            <h3>More About Beloved PH</h3>
+            <div class="column-text">
+                <p>Beloved PH is dedicated to creating beautiful crochet bouquets, adding a touch of warmth and charm to every occasion. Our handmade creations are crafted with passion and attention to detail.</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <h3>Keep Connected</h3>
+            <div class="column-text">
+                <p>Follow us on social media for the latest updates and behind-the-scenes glimpses of our floral creations.</p>
+            </div>
+
+            <!-- Two columns under "Keep Connected" -->
+            <div class="sub-column">
+                <div class="sub-column social-container">
+                    <!-- Social media icons in a circular container -->
+                    <img src="assets/imgs/facebook.png" alt="Facebook Icon" class="social-icon">
+                    <img src="assets/imgs/instagram.png" alt="Instagram Icon" class="social-icon">
+                    <img src="assets/imgs/twitter.png" alt="Twitter Icon" class="social-icon">
+                    <!-- Add more icons as needed -->
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <h3>Contact Us</h3>
+            <div class="column-text">
+                <p>Email: info@belovedph.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+                <p>Address: 123 Flower Street, Cityville, Country</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="end-container">
+        <p>&copy; Beloved PH 2023</p>
+    </div>
+</div>
+
+<script src="assets4/java/java.js"></script>
+</body>
+</html>

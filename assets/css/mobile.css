@@ -1,0 +1,208 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; /* Updated for mobile */
+    align-items: center; /* Center items horizontally */
+    padding: 10px 20px;
+    z-index: 1000;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjusted for mobile */
+    margin-right: 0;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.business-name {
+    color: #FF69B4;
+    font-size: 24px; /* Adjusted for mobile */
+    margin-right: 10px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    color: #FF69B4;
+}
+
+.navbar a {
+    width: 100%;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+/* Header Styles */
+.header-container {
+    height: 40vh; /* Adjusted for mobile */
+}
+
+.header-content {
+    width: 100%;
+}
+
+.header-text h1 {
+    font-size: 50px;
+}
+
+.header-text p {
+    font-size: 16px; /* Adjusted for mobile */
+}
+
+/* About Section */
+.about-container {
+    flex-direction: column; /* Adjusted for mobile */
+    text-align: center;
+    margin-top: 10px; /* Adjusted for mobile */
+    margin-bottom: 10px; /* Adjusted for mobile */
+}
+
+.about-inner-container {
+    flex-direction: column;
+}
+
+.logo-column, .text-column {
+    margin-bottom: 10px;
+}
+
+.big-logo {
+    width: 100%; /* Updated for mobile */
+    max-width: none;
+}
+
+.about-heading {
+    font-size: 30px; /* Adjusted for mobile */
+}
+
+.about-subtext {
+    font-size: 16px; /* Adjusted for mobile */
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+.button {
+    font-size: 14px; /* Adjusted for mobile */
+}
+
+/* Review Styles */
+.review-container {
+    flex-direction: column; /* Adjusted for mobile */
+    padding: 10px 0; /* Adjusted for mobile */
+}
+
+.column {
+    width: 100%; /* Updated for mobile */
+    margin-bottom: 20px; /* Adjusted for mobile */
+}
+
+.review-title {
+    font-size: 40px;
+}
+
+.review-image {
+    max-width: 100%; /* Updated for mobile */
+    border-radius: 20px; /* Adjusted for mobile */
+    margin-bottom: 10px;
+}
+
+.review-text {
+    font-size: 16px; /* Adjusted for mobile */
+}
+
+.review-subtext {
+    font-size: 14px; /* Adjusted for mobile */
+}
+
+/* FAQ Section */
+.faq-container {
+    padding: 10px; /* Adjusted for mobile */
+}
+
+.faq-item {
+    max-width: 100%; /* Updated for mobile */
+    margin-bottom: 10px; /* Adjusted for mobile */
+    border-radius: 20px; /* Adjusted for mobile */
+}
+
+.answer {
+    font-size: 16px; /* Adjusted for mobile */
+}
+
+.question {
+    font-size: 16px; /* Adjusted for mobile */
+}
+
+.faq-item.open .answer {
+    max-height: 200px; /* Adjusted for mobile */
+}
+
+.faq-container h1 {
+    font-size: 40px;
+}
+
+/* Footer Section */
+.footer-container {
+    flex-direction: column; /* Adjusted for mobile */
+    align-items: center;
+    padding: 10px; /* Adjusted for mobile */
+}
+
+.column, .larger-column {
+    flex: 1;
+    width: 100%; /* Updated for mobile */
+    margin-bottom: 20px; /* Adjusted for mobile */
+}
+
+.column h3 {
+    font-size: 20px;
+}
+
+.column-text p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.sub-column {
+    margin-top: 15px;
+}
+
+.social-icon {
+    width: 30px; /* Adjusted for mobile */
+    height: 30px; /* Adjusted for mobile */
+}
+
+/* Footer Copyright Styles */
+.end-container {
+    padding: 5px;
+    font-size: 12px; /* Adjusted for mobile */
+}
